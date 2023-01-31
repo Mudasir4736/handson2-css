@@ -1,0 +1,126 @@
+.child1{
+    width: 400px;
+    height: 100px;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 25px;
+    font-size: 25px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    padding: 10px;
+    line-height: 30px;
+}
+.child2{
+    width: 400px;
+    height: 50px;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 25px;
+    font-size: 25px;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    text-align: center;
+
+}
+.child2 a{
+    color: white;
+    text-decoration: none;
+}
+.child3{
+    width: 500;
+    height: 250;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 25px;
+    font-size: 25px;
+    position: absolute;
+    right: 150px;
+
+}
+
+.contentc{
+    position: relative;
+    top: 102px;
+    font-size: 20px;
+    height: auto;
+    text-align: center;
+   
+}
+.circle
+{
+   position: absolute;
+   top: 500px;
+    height: 400px;
+    width: 400px;
+    border: 5px solid gray;
+    border-radius: 50%;
+    color: black;
+    background-color: green;
+    
+   
+}
+.formc{
+    border: 5px dashed red;
+    position: absolute;
+    left: 800px;
+    top: 500px;
+    line-height: 20px;
+}
+.form1{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+     
+}
+.Menu{
+    position: absolute;
+    left: 700px;
+    top: 1100px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border: 3px solid red;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    width: 500px; 
+}
+.container1{
+    position: absolute;
+  
+    top: 1200px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    text-align: center;
+    font-size: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+}
+    .first{
+        border-radius: 20px;
+        width: 400px;
+        height: 400px;
+        background-color: rgb(0, 187, 255);
+        border: 5px solid green;
+        margin: 40px;
+        
+    }
+    body{
+        background-image: url(./bgimage.jpg);
+        background-size: cover;
+        
+    }
+    
+    
